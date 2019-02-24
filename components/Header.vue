@@ -23,8 +23,8 @@
                         </div>
                     </b-col>
                     
-                    <b-col class="text-right" offset-md="3" md="4">
-                        <div class="right_section">
+                    <b-col class="text-right" offset-md="2" md="5">
+                        <div class="location-responsive right_section">
                             <span class="date">
                                 Victoria de Durango, Durango
                             </span>
@@ -52,6 +52,14 @@
 </template>
 
 <style>
+
+    @media screen and (max-width: 768px){
+        .location-responsive {
+            text-align: center;
+            display: inherit !important;
+            padding-top: 10%;
+        }
+    }
     .header_section_wrapper{
         margin: 0 !important;
         padding-top: 30px;
@@ -129,6 +137,8 @@
             float: left;
             margin-top: 20px;
         }
+
+        
     }
 </style>
 

@@ -1,11 +1,12 @@
 <template>
     <div class="navigation-section">
-        <b-navbar class="navbar" toggleable="lg" type="dark" variant="info">
-            <b-container class="m-menu navbar-default">
-                <b-navbar-toggle class="navbar-toggle collapsed" target="nav_collapse" />
+        
+        <b-navbar class="navbar" toggleable="md" type="dark" variant="info">
+            <b-container class="navbar m-menu navbar-default">
+                <b-navbar-toggle target="nav_collapse">Topics</b-navbar-toggle>
 
                 <b-collapse is-nav id="nav_collapse">
-                    <b-navbar-nav class=" navbar-nav main-nav">
+                    <b-navbar-nav class="nav navbar-nav main-nav">
                         <b-nav-item href="#">World</b-nav-item>
                         <b-nav-item href="#">Politics</b-nav-item>
                         <b-nav-item href="#">Business</b-nav-item>
@@ -42,14 +43,15 @@
     }
 
     @media screen and (max-width: 768px) {
-        .navbar-collapse.collapse {
-            display: none !important;
-        }
         .navigation-section .navbar-default {
             border: none;
             margin: 0;
             display: inline;
             padding: 0;
+        }
+
+        .nav {
+            border-bottom: #000 solid 1px;
         }
     }
 
@@ -90,6 +92,15 @@
         padding: 8px 17px;
         text-transform: uppercase;
         font-weight: bold;
+    }
+
+    .navbar-toggler {
+        background: #FFF;
+        color: #A42242 !important;
+        border: #A42242 solid 1px !important;
+        border-radius: 5px;
+        width: 100%;
+        position: relative;
     }
 
     .navbar-default .navbar-nav > .active > a,

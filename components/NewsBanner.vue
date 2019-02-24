@@ -3,7 +3,7 @@
         <b-navbar class="navbar" toggleable="lg" type="dark" variant="info">
             <b-container class="m-menu navbar-default">
 
-                <b-navbar-nav class=" navbar-nav main-nav">
+                <b-navbar-nav class="news-banner navbar-nav main-nav">
                     <b-row>
                         <b-col class="element-wrapper" md="4">
                             <BannerArticle />
@@ -42,6 +42,31 @@ export default {
 
 
 <style>
+
+    @media screen and (max-width: 768px) {
+        .navigation-section .navbar-default {
+            border: none;
+            margin: 0;
+            display: inline;
+            padding: 0;
+        }
+
+        .element-wrapper {
+            display: inline-block;
+            border-right: none !important;
+            border-bottom: 2px solid #424242;
+            border-right: 50%;
+        }
+
+        .element-wrapper::after {
+            position: absolute;
+            line-height: 70%;
+        }
+
+        .news-banner {
+            padding: 8%;
+        }
+    }
 
     .element-wrapper {
         display: inline-block;

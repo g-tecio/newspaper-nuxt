@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="news-container">
         <div class="primary-articles">
             <b-row>
                 <b-col class="article-wrapper " md="6">
@@ -41,6 +41,20 @@ export default {
 
 
 <style>
+
+    @media screen and (max-width: 548px) {
+        .article-wrapper {
+            border-right: none !important;
+            border-bottom: #424242 solid 1px;
+        }
+        .primary-articles {
+            border-bottom: none !important;
+        }
+
+        .news-container {
+            padding: 8%;
+        }
+    }
     
     .article-wrapper {
         display: inline-block;
