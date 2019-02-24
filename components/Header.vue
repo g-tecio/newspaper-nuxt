@@ -3,41 +3,47 @@
         <div class="header-section">
             <b-container>
                 <b-row>
-                    <b-col md="4">
+                    <b-col offset-md="4" md="4">
+                        <div class="logo">
+                            <b-img src="https://s3.amazonaws.com/events-prototype/general-logo.png" fluid alt="Responsive image" />
+                        </div>   
+                    </b-col>
+                    <b-col md="5">
                         <div class="left_section">
                             <span class="date">
                                 Sunday .
                             </span>
                             <span class="time">
-                                09 August . 2016
+                                25 Feb . 2019
+                            </span>
+<!-- 
+                            <div class="social">
+                                Victoria de Durango, Durango
+                            </div> -->
+                        </div>
+                    </b-col>
+                    
+                    <b-col class="text-right" offset-md="3" md="4">
+                        <div class="right_section">
+                            <span class="date">
+                                Victoria de Durango, Durango
                             </span>
                         </div>
-                    </b-col>
-                    <b-col md="4">
-                        <div class="logo">
-                            <b-img src="http://127.0.0.1:5500/assets/img/logo.png" fluid alt="Responsive image" />
-                        </div>   
-                    </b-col>
-                    <b-col md="4">
-                        <div class="right_section">
+                        <!-- <div class="right_section">
                             <b-navbar toggleable="lg" variant="info">
-                                <b-navbar-toggle target="nav_collapse" />
+                                <b-navbar-nav class="nav-cta">
+                                    <b-nav-item>Sign In</b-nav-item>
+                                    <b-nav-item>Sign Up</b-nav-item>
 
-                                <b-collapse is-nav id="nav_collapse">
-                                    <b-navbar-nav class="nav-cta">
-                                        <b-nav-item>Sign In</b-nav-item>
-                                        <b-nav-item>Sign Up</b-nav-item>
-
-                                        <b-nav-item-dropdown text="Lang" right>
-                                            <b-dropdown-item href="#">EN</b-dropdown-item>
-                                            <b-dropdown-item href="#">ES</b-dropdown-item>
-                                            <b-dropdown-item href="#">RU</b-dropdown-item>
-                                            <b-dropdown-item href="#">FA</b-dropdown-item>
-                                        </b-nav-item-dropdown>
-                                    </b-navbar-nav>
-                                </b-collapse>
+                                    <b-nav-item-dropdown text="Lang" right>
+                                        <b-dropdown-item href="#">EN</b-dropdown-item>
+                                        <b-dropdown-item href="#">ES</b-dropdown-item>
+                                        <b-dropdown-item href="#">RU</b-dropdown-item>
+                                        <b-dropdown-item href="#">FA</b-dropdown-item>
+                                    </b-nav-item-dropdown>
+                                </b-navbar-nav>
                             </b-navbar>
-                        </div>
+                        </div> -->
                     </b-col>
                 </b-row>
             </b-container>

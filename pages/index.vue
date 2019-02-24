@@ -1,17 +1,23 @@
 <template>
   <div>
     <Header />
+    <Categories />
+    <NewsBanner />
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
 import Header from '~/components/Header.vue'
+import Categories from '~/components/Categories.vue'
+import NewsBanner from '~/components/NewsBanner.vue'
 
 export default {
   components: {
     Logo,
-    Header
+    Header,
+    Categories,
+    NewsBanner
   }
 }
 </script>
