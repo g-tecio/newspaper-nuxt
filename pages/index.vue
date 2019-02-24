@@ -3,6 +3,17 @@
     <Header />
     <Categories />
     <NewsBanner />
+    <b-container>
+      <b-row>
+        <b-col md="9">
+          <NewsContainer />
+        </b-col>
+        <b-col md="3">
+          <SideNews />
+        </b-col>
+    </b-row>
+    </b-container>
+    
   </div>
 </template>
 
@@ -11,13 +22,17 @@ import Logo from '~/components/Logo.vue'
 import Header from '~/components/Header.vue'
 import Categories from '~/components/Categories.vue'
 import NewsBanner from '~/components/NewsBanner.vue'
+import NewsContainer from '~/components/NewsContainer.vue'
+import SideNews from '~/components/SideNews.vue'
 
 export default {
   components: {
     Logo,
     Header,
     Categories,
-    NewsBanner
+    NewsBanner,
+    NewsContainer,
+    SideNews
   }
 }
 </script>
