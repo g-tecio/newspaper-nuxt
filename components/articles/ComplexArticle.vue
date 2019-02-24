@@ -1,21 +1,21 @@
 <template>
     <div>
         <b-row>
-            <b-col md="8">
+            <b-col md="7">
                 <h1>Times Are Changing</h1>
                 <p>This is a text without sense so don't waste time reading it it's just to see the article visual behaivor</p>
             </b-col>
-            <b-col md="4">
-                <b-img class="article-img" src="https://picsum.photos/1024/400/?image=41" fluid alt="Responsive image"/>
+            <b-col md="5">
+                <b-img class="article-img" src="https://picsum.photos/1024/400/?image=42" fluid alt="Responsive image"/>
             </b-col>
         </b-row>
 
         <div class="article-date">
             <b-row>
-                <b-col md="8">
+                <b-col md="6">
                     Thursday February, 7
                 </b-col>
-                <b-col class="text-right" md="4">
+                <b-col class="text-right" md="6">
                     <b-link class="see-more text-right" href="#">See more...</b-link>
                 </b-col>
             </b-row>  
@@ -33,6 +33,6 @@
     }
     .article-img {
         width: 100%;
-        height: 100%;
+        height: 50%;
     }
 </style>
