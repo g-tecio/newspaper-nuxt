@@ -43,23 +43,11 @@ export default {
 <style>
 
     @media screen and (max-width: 548px) {
-        .article-wrapper {
-            border-right: none !important;
-            border-bottom: #424242 solid 1px;
-        }
-        .primary-articles {
-            border-bottom: none !important;
-        }
+        
 
         .news-container {
             padding: 8%;
         }
-    }
-    
-    .article-wrapper {
-        display: inline-block;
-        border-right: 2px solid #898989;
-        border-right: 50%;
     }
 
     .primary-articles {

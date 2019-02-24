@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="rigth-border-wrapper">
         <b-row>
             <b-col md="4">
                 <b-img :src="config.img" fluid alt="Responsive image" />
@@ -18,5 +18,18 @@ export default {
     props:['config'],
 }
 </script>
+
+<style>
+    @media screen and (max-width: 768px){
+        .rigth-border-wrapper {
+            border-right: #000 solid 0px !important;
+        }
+    }
+
+    .rigth-border-wrapper {
+        border-right: #000 solid 1px;
+    }
+</style>
+
 
 

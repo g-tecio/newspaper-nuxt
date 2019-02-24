@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="side-news">
         <SideArticle />
         <SideArticle />
         <SideArticle />
@@ -18,4 +18,11 @@ export default {
     }
 }
 </script>
+
+<style>
+    .side-news {
+        border-left: #424242 solid 1px;
+    }
+</style>
+
 

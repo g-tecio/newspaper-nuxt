@@ -11,7 +11,7 @@
                         <b-col class="element-wrapper" md="4">
                             <BannerArticle />
                         </b-col>
-                        <b-col class="element-wrapper" md="2">
+                        <b-col class="currency-wrapper" md="2">
                             <Currency />
                         </b-col>
                         <b-col md="2">
@@ -57,6 +57,12 @@ export default {
             border-bottom: 2px solid #424242;
             border-right: 50%;
         }
+        .currency-wrapper {
+            display: inline-block;
+            border-right: none !important;
+            border-bottom: 2px solid #424242;
+            border-right: 50%;
+        }
 
         .element-wrapper::after {
             position: absolute;
@@ -68,16 +74,9 @@ export default {
         }
     }
 
-    .element-wrapper {
-        display: inline-block;
-        border-right: 2px solid #424242;
-        border-right: 50%;
+    .currency-wrapper {
+        border-right: 1px solid #424242;
     }
-    .element-wrapper::after {
-        position: absolute;
-        line-height: 70%;
-    }
-
 
     .navigation-section i {
         margin-left: 5px;
