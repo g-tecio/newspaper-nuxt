@@ -11,6 +11,7 @@
         <b-col md="3">
           <SideNews />
         </b-col>
+        
     </b-row>
     </b-container>
     

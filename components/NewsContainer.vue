@@ -44,12 +44,10 @@ export default {
 
     @media screen and (max-width: 548px) {
         
-
         .news-container {
             padding: 8%;
         }
     }
-
     .primary-articles {
         border-bottom: 2px solid #898989;
         height: 80% !important;
