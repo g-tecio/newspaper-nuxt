@@ -1,18 +1,18 @@
 <template>
     <div class="news-container">
         <div class="primary-articles">
-            <b-row>
-                <b-col class="article-wrapper " md="6">
+            <b-row class="row-primary">
+                <b-col class="article-wrapper-left" md="6">
                     <ArticleWithoutImg />
                 </b-col>
-                <b-col class="article-wrapper " md="6">
+                <b-col class="article-wrapper" md="6">
                     <ArticleImg />
                 </b-col>
             </b-row>
         </div>
         <div class="seconday-articles">
             <b-row>
-                <b-col class="article-wrapper" md="6">
+                <b-col class="article-wrapper-left" md="6">
                     <ArticleWithoutImg />
                 </b-col>
                 <b-col class="article-wrapper" md="6">
@@ -20,9 +20,6 @@
                 </b-col>
             </b-row>
         </div>
-        
-        
-        
     </div>
 </template>
 
@@ -49,11 +46,17 @@ export default {
         }
     }
     .primary-articles {
-        border-bottom: 2px solid #898989;
-        height: 80% !important;
+        border-bottom: 1px solid gray;
     }
-    .secondary-articles {
-        height: 20% !important;
+    .row-primary{
+        padding-bottom: 10px;
+    }
+    .seconday-articles {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .article-wrapper-left{
+        border-right: 1px solid gray;
     }
 
 </style>
