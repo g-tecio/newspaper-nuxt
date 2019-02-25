@@ -6,7 +6,7 @@
                 <p>This is a text without sense so don't waste time reading it it's just to see the article visual behaivor</p>
             </b-col>
             <b-col md="5">
-                <b-img class="article-img-complex" src="https://picsum.photos/1024/400/?image=42" fluid alt="Responsive image"/>
+                <b-img id="article-img" src="https://picsum.photos/1024/400/?image=42" fluid alt="Responsive image"/>
             </b-col>
             <b-col md="6">
                     Thursday February, 7
@@ -28,8 +28,8 @@
     .article-date {
         color: #A2A2A2;
     }
-    .article-img-complex {
+    #article-img {
         width: 100%;
-        height: 150px;
+        height: 200px;
     }
 </style>
