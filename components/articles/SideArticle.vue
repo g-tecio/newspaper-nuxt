@@ -1,7 +1,7 @@
 <template>
     <div class="side-article">
-        <h3>Side Article Title</h3>
-        <b-link href="#" class="see-more">Read</b-link> | 3mins reading | Feb 2019
+        <h3>Side Article</h3>
+        <b-link href="#" class="see-more">Read</b-link> | 3 mins | Feb 2019
     </div>  
 </template>
 

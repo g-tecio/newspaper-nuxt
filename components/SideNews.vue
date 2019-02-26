@@ -7,6 +7,8 @@
         <SideArticle />
         <SideArticle />
         <SideArticle />
+        <SideArticle />
+        <SideArticle />
     </div>
 </template>
 
