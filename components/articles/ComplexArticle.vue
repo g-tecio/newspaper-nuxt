@@ -30,6 +30,6 @@
     }
     .article-img-complex {
         width: 100%;
-        height: 150px;
+        height: 205px;
     }
 </style>

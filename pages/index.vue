@@ -14,6 +14,18 @@
         <b-col md="12">
           <FullContainer />
         </b-col>
+        <b-col md="9" class="after-col">
+          <AfterFullContainer/>
+        </b-col>
+        <b-col md=3 class="after-col">
+          <SideNews2/>
+        </b-col>
+        <b-col md="9" class="final-col">
+          <NewsContainer2/>
+        </b-col>
+        <b-col md="3" class="final-col2">
+          <SideNews3/>
+        </b-col>
     </b-row>
     </b-container>
     
@@ -28,6 +40,10 @@ import NewsBanner from '~/components/NewsBanner.vue'
 import NewsContainer from '~/components/NewsContainer.vue'
 import SideNews from '~/components/SideNews.vue'
 import FullContainer from '~/components/FullContainer.vue'
+import AfterFullContainer from '~/components/AfterFullContainer.vue'
+import SideNews2 from '~/components/SideNews2.vue'
+import NewsContainer2 from '~/components/NewsContainer2.vue'
+import SideNews3 from '~/components/SideNews3.vue'
 
 export default {
   components: {
@@ -37,7 +53,11 @@ export default {
     NewsBanner,
     NewsContainer,
     SideNews,
-    FullContainer
+    FullContainer,
+    AfterFullContainer,
+    SideNews2,
+    NewsContainer2,
+    SideNews3
   }
 }
 </script>
@@ -64,5 +84,22 @@ export default {
 
   .links {
     padding-top: 15px;
+  }
+
+  .after-col{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .final-col{
+    border-top: 2px solid #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .final-col2{
+    border-top: 2px solid #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 </style>

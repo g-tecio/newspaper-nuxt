@@ -1,6 +1,6 @@
 <template>
     <div class="news-container">
-        <div class="primary-articles">
+        <div class="primary-articles-container">
             <b-row class="row-primary">
                 <b-col class="article-wrapper-left" md="6">
                     <ArticleWithoutImg />
@@ -45,7 +45,7 @@ export default {
             padding: 8%;
         }
     }
-    .primary-articles {
+    .primary-articles-container {
         border-bottom: 1px solid gray;
     }
     .row-primary{

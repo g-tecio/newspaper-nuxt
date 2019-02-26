@@ -1,14 +1,10 @@
 <template>
     <div class="side-news">
-        <SideArticle />
-        <SideArticle />
-        <SideArticle />
-        <SideArticle />
-        <SideArticle />
-        <SideArticle />
-        <SideArticle />
-        <SideArticle />
-        <SideArticle />
+        <SideArticle class="side-article"/>
+        <SideArticle class="side-article"/>
+        <SideArticle class="side-article"/>
+        <SideArticle class="side-article"/>
+        <SideArticle class="side-article"/>
     </div>
 </template>
 
@@ -24,6 +20,9 @@ export default {
 <style>
     .side-news {
         border-left: #424242 solid 1px;
+    }
+    .side-article{
+        padding-bottom: 10px;
     }
 </style>
 
