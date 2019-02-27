@@ -34,10 +34,9 @@
         border-radius: 0;
         border-bottom: 0;
     }
-    .card-img-top #side-article-card2{
+    .card-img-top{
         border-top-left-radius: 0;
         border-top-right-radius: 0;
-        max-height: 100px;
     }
     .card-footer{
         background-color: #fff;

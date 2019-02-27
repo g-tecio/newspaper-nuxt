@@ -1,5 +1,5 @@
 <template>
-    <b-container>
+    <b-container class="article-without-img2">
         <h3>Times Are Changing</h3>
         <p>This is a text without sense so don't waste time reading it it's just to see the article visual behaivor</p>
 
@@ -22,5 +22,9 @@
     }
     .article-date {
         color: #A2A2A2;
+    }
+    .article-without-img2{
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 </style>

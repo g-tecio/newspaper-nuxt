@@ -1,5 +1,5 @@
 <template>
-    <b-container>
+    <b-container class="article-right-side">
         <b-row>
             <b-col md="7">
                 <h1>Times Are Changing</h1>
@@ -31,5 +31,9 @@
     #article-img {
         width: 100%;
         height: 200px;
+    }
+    .article-right-side{
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 </style>

@@ -2,11 +2,6 @@
     <b-container class="side-article3">
         <b-card
             no-body
-            style="max-width: 20rem;"
-            img-src="https://placekitten.com/380/200"
-            img-alt="Image"
-            img-top
-            class="side-article-card3"
         >
             <b-card-body>
                 <b-card-title>Maduro doesn't want to leave Venezuela</b-card-title>

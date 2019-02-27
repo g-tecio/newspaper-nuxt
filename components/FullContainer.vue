@@ -30,9 +30,7 @@ export default {
     .primary-articles-full {
         border-top: 2px solid #000;
         height: 80% !important;
-        padding-top: 10px;
         border-bottom: 2px solid #000;
-        padding-bottom: 10px;
     }
     .article-wrapper-right{
         border-right: 1px solid #000;

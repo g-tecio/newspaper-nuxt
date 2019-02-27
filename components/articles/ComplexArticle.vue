@@ -1,5 +1,5 @@
 <template>
-    <b-container>
+    <b-container class="container-complex">
         <b-row>
             <b-col md="7">
                 <h1>Times Are Changing</h1>
@@ -31,5 +31,9 @@
     .article-img-complex {
         width: 100%;
         height: 205px;
+    }
+    .container-complex{
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 </style>

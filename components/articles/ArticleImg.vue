@@ -1,5 +1,5 @@
 <template>
-    <b-container>
+    <b-container class="container-img">
 
         <b-img class="article-img" src="https://picsum.photos/1024/400/?image=41" fluid alt="Responsive image"/>
         <p>This is a text without sense so don't waste time reading it it's just to see the article visual behaivor</p>
@@ -28,5 +28,9 @@
     .article-img {
         width: 100%;
         height: 260px;
+    }
+    .container-img{
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 </style>

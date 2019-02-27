@@ -1,21 +1,21 @@
 <template>
     <div class="news-container">
         <div class="primary-articles-container">
-            <b-row class="row-primary">
-                <b-col class="article-wrapper-left" md="6">
+            <b-row class="new-container-row">
+                <b-col class="new-container-1" md="6">
                     <ArticleWithoutImg />
                 </b-col>
-                <b-col class="article-wrapper" md="6">
+                <b-col class="new-container-2" md="6">
                     <ArticleImg />
                 </b-col>
             </b-row>
         </div>
         <div class="seconday-articles">
             <b-row>
-                <b-col class="article-wrapper-left" md="6">
+                <b-col class="new-container-3" md="6">
                     <ArticleWithoutImg />
                 </b-col>
-                <b-col class="article-wrapper" md="6">
+                <b-col class="new-container-4" md="6">
                     <ComplexArticle />
                 </b-col>
             </b-row>
@@ -45,18 +45,18 @@ export default {
             padding: 8%;
         }
     }
-    .primary-articles-container {
-        border-bottom: 1px solid gray;
+
+    .new-container-row{
+        border-bottom: 1px solid #000;
     }
-    .row-primary{
-        padding-bottom: 10px;
+
+    .new-container-1{
+        border-right: 1px solid #000;
     }
-    .seconday-articles {
-        padding-top: 10px;
-        padding-bottom: 10px;
+
+    .new-container-3{
+        border-right: 1px solid #000;
     }
-    .article-wrapper-left{
-        border-right: 1px solid gray;
-    }
+    
 
 </style>

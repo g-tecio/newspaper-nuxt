@@ -1,10 +1,11 @@
 <template>
     <div class="side-news">
+        <SideArticle class="side-article" id="start-side"/>
         <SideArticle class="side-article"/>
         <SideArticle class="side-article"/>
         <SideArticle class="side-article"/>
         <SideArticle class="side-article"/>
-        <SideArticle class="side-article"/>
+        <SideArticle class="side-article" id="final-side"/>
     </div>
 </template>
 
@@ -18,12 +19,15 @@ export default {
 </script>
 
 <style>
-    .side-news {
-        border-left: #424242 solid 1px;
-    }
+
     .side-article{
-        padding-bottom: 10px;
+        border-top: 1px solid gray;
     }
+
+    #start-side{
+        border-top: 0;
+    }
+    
 </style>
 
 

@@ -43,6 +43,16 @@ export default {
 
 <style>
 
+    .navbar {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        padding-top: 10px;
+    }
+
     @media screen and (max-width: 768px) {
         .navigation-section .navbar-default {
             border: none;

@@ -28,10 +28,12 @@
     .card{
         border: 0;
         border-radius: 0;
-
     }
     .card-footer{
         background-color: #fff;
         border-top: 0;
     }
+    .mb-2, .my-2 {
+    margin-bottom: 0.4rem !important;
+}
 </style>
