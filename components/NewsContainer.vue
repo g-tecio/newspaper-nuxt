@@ -46,12 +46,14 @@ export default {
         }
     }
 
-    .new-container-row{
+    .new-container-1{
+        border-right: 1px solid #000;
         border-bottom: 1px solid #000;
     }
 
-    .new-container-1{
-        border-right: 1px solid #000;
+    .new-container-2{
+        
+        border-bottom: 1px solid #000;
     }
 
     .new-container-3{

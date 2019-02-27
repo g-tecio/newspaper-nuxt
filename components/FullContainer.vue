@@ -2,10 +2,10 @@
     <div class="news-container">
         <div class="primary-articles-full">
             <b-row>
-                <b-col class="article-wrapper-right" md="6">
+                <b-col class="article-wrapper-left" md="6">
                     <ArticleLeftSide />
                 </b-col>
-                <b-col class="article-wrapper " md="6">
+                <b-col class="article-wrapper-right " md="6">
                     <ArticleRightSide />
                 </b-col>
             </b-row>
@@ -27,13 +27,15 @@ export default {
 
 
 <style>
-    .primary-articles-full {
+    
+    .article-wrapper-left{
         border-top: 2px solid #000;
-        height: 80% !important;
+        border-right: 1px solid #000;
         border-bottom: 2px solid #000;
     }
     .article-wrapper-right{
-        border-right: 1px solid #000;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
     }
  
 </style>

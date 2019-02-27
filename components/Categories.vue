@@ -80,7 +80,7 @@
     }
 
     .navbar-default .navbar-nav > li {
-        margin-right: 17px;
+        margin-right: 20px;
     }
 
     .navbar-default .navbar-nav > li:last-child {
@@ -116,6 +116,10 @@
 
     .nav-link {
         color: #000 !important;
+    }
+
+    .navbar-expand-md .navbar-nav{
+        margin-left: 35px;
     }
 
 </style>

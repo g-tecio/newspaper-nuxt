@@ -53,6 +53,10 @@ export default {
         padding-top: 10px;
     }
 
+    .element-wrapper{
+        border-right: 1px solid #000;
+    }
+
     @media screen and (max-width: 768px) {
         .navigation-section .navbar-default {
             border: none;
@@ -70,7 +74,7 @@ export default {
         .currency-wrapper {
             display: inline-block;
             border-right: none !important;
-            border-bottom: 2px solid #424242;
+            border-right: 1px solid #000;
             border-right: 50%;
         }
 
@@ -85,7 +89,7 @@ export default {
     }
 
     .currency-wrapper {
-        border-right: 1px solid #424242;
+        border-right: 1px solid #000;
     }
 
     .navigation-section i {

@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <b-container>
         <h6><strong>USD: </strong> $21 MXN</h6>
-    </div>
+    </b-container>
 </template>
 
 <style>
