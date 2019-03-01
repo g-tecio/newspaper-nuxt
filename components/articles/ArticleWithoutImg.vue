@@ -2,6 +2,7 @@
     <b-container class="container-without-img">
         <h1>Times Are Changing</h1>
         <p>This is a text without sense so don't waste time reading it it's just to see the article visual behaivor</p>
+        <p>This is a text without sense so don't waste time reading it it's just to see the article visual behaivor</p>
 
         <div class="article-date">
             <b-row>

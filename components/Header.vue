@@ -8,26 +8,21 @@
                             <b-img src="https://s3.amazonaws.com/nh-prototype/El+General+Oficial+500x168.png" fluid alt="Responsive image" />
                         </div>   
                     </b-col>
-                    <b-col md="5">
+                    <b-col md="5" class="today-settings">
                         <div class="left_section">
                             <span class="date">
-                                Sunday .
+                                Febraury 12, 2019
                             </span>
-                            <span class="time">
-                                25 Feb . 2019
-                            </span>
-<!-- 
-                            <div class="social">
+                            <span class="city">
                                 Victoria de Durango, Durango
-                            </div> -->
+                            </span>
                         </div>
                     </b-col>
                     
                     <b-col class="text-right" offset-md="2" md="5">
                         <div class="location-responsive right_section">
-                            <span class="date">
-                                Victoria de Durango, Durango
-                            </span>
+                            <b-button size="sm" variant="danger">Suscribe</b-button>
+                            <b-button size="sm" variant="outline-danger">Log In</b-button>
                         </div>
                         <!-- <div class="right_section">
                             <b-navbar toggleable="lg" variant="info">
@@ -52,6 +47,18 @@
 </template>
 
 <style>
+
+    .today-settings{
+        margin-top: 13px
+    }
+
+    .date{
+        font-size: 10px;
+    }
+
+    .city{
+        font-size: 10px;
+    }
 
     @media screen and (max-width: 768px){
         .location-responsive {

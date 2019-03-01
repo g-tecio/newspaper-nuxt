@@ -2,7 +2,7 @@
     <b-container class="container-img">
 
         <b-img class="article-img" src="https://picsum.photos/1024/400/?image=41" fluid alt="Responsive image"/>
-        <p>This is a text without sense so don't waste time reading it it's just to see the article visual behaivor</p>
+        <p class="p-font">This is a text without sense so don't waste time reading it it's just to see the article visual behaivor</p>
 
         <div class="article-date">
             <b-row>
@@ -19,6 +19,9 @@
 </template>
 
 <style>
+    .p-font{
+        font-size: 18px;
+    }
     .see-more {
         color: #D2222A !important;
     }

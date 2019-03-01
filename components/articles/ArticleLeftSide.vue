@@ -8,7 +8,7 @@
             <b-col md="5">
                 <b-img id="article-img" src="https://picsum.photos/1024/400/?image=42" fluid alt="Responsive image"/>
             </b-col>
-            <b-col md="6">
+            <b-col md="6" class="article-date">
                     Thursday February, 7
                 </b-col>
             <b-col class="text-right" md="6">
