@@ -13,7 +13,7 @@
                     <b-col md="5" class="today-settings">
                         <div class="left_section">
                             <span class="date">
-                                Febraury 12, 2019
+                                February 12, 2019
                             </span>
                             <span class="city">
                                 Victoria de Durango, Durango

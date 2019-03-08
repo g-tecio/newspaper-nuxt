@@ -10,7 +10,7 @@
       <p style="display: inline-block">by Steven Voorhees</p>
       <br>
       <div class="left_section">
-        <span class="city">Thuesday, Febrary 2</span>
+        <span class="city">Thuesday, February 2</span>
         <img src="./icons/fb.png" class="icons" alt>
         <img src="./icons/li.png" class="icons" alt>
         <img src="./icons/tw.png" class="icons" alt>
