@@ -32,7 +32,9 @@ export default {
         { name: "Arts", img: '47' },
         { name: "Books", img: '48' },
         { name: "Style", img: '49' },
-        { name: "Food", img: '50' }
+        { name: "Food", img: '50' },
+        { name: "Magazine", img: '51' },
+        { name: "Travel", img: '52' }
       ]
     };
   }

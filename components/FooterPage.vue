@@ -1,6 +1,6 @@
 <template>
   <!-- Footer -->
-  <b-col md="12">
+  <b-col class="margin-top" md="12">
     <!-- Footer -->
     <footer
       style="background-color: #C2C2C2; width: 100%;
@@ -85,6 +85,9 @@
 </template>
 
 <style>
+.margin-top {
+  margin-top: 5%;
+}
 a {
   color: #ffffff;
 } /* CSS link color */

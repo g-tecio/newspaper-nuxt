@@ -2,11 +2,13 @@
     <div class="rigth-border-wrapper">
         <b-row>
             <b-col md="4">
-                <b-img :src="config.img" fluid alt="Responsive image" />
+                <b-link :key="config.id" :to="{ name: 'article-id', params: { id: config.id, title: config.title, content: config.content, img: config.img } }">
+                    <b-img :src="config.img_url" fluid alt="Responsive image" />
+                </b-link>
             </b-col>
             <b-col md="8">
                 <h6>{{ config.title }}</h6>
-                <p>{{ config.description }}</p>
+                <p>{{ config.content }}</p>
             </b-col>
         </b-row>  
     </div>

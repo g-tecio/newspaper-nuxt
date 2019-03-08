@@ -1,14 +1,12 @@
 <template>
   <b-row>
     <b-col md="4" style=" padding: 10px 20px 20px 10px;">
-      <h2>Usually, you would use this character style for a main headline!</h2>
+      <h2>{{ content.title }}</h2>
       <p>
-        Times are changing fast and whilist some
-        of us were simply born into this meteric times
-        are others who were not.
+        {{ content.content }}
       </p>
 
-      <img src="https://picsum.photos/1024/400/?image=41" alt="Avatar" class="avatar">
+      <img :src="'https://picsum.photos/1024/400/?image=' + content.img" alt="Avatar" class="avatar">
       <p style="display: inline-block">by Steven Voorhees</p>
       <br>
       <div class="left_section">
@@ -21,7 +19,7 @@
     </b-col>
     <b-col md="8">
       <b-img
-        src="https://picsum.photos/1024/400/?image=41"
+        :src="'https://picsum.photos/1024/400/?image=' + content.img"
         fluid-grow
         alt="Fluid-grow image"
         style="max-width: 100%; height: auto;"
@@ -30,5 +28,7 @@
   </b-row>
 </template>
 <script>
-export default {};
+export default {
+  props: ['content']
+};
 </script>

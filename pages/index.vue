@@ -1,8 +1,7 @@
 <template>
   <div>
-    <!--
+
     <Header/>
-    <nuxt-link to="/ArticleView">Home page</nuxt-link>
     <Categories/>
     <NewsBanner/>
     <b-container>
@@ -25,13 +24,11 @@
       </b-row>
     </b-container>
     <FooterPage/>
-    -->
-    <ArticleView/>
+
   </div>
 </template>
 
 <script>
-import ArticleView from "~/pages/ArticleView.vue";
 import FooterPage from "~/components/FooterPage.vue";
 import Logo from "~/components/Logo.vue";
 import Header from "~/components/Header.vue";
@@ -53,7 +50,6 @@ export default {
     FullContainer,
     AfterFullContainer,
     SideNews2,
-    ArticleView,
     FooterPage
   }
 };

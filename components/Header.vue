@@ -5,7 +5,9 @@
                 <b-row>
                     <b-col offset-md="4" md="4">
                         <div class="logo">
-                            <b-img src="https://s3.amazonaws.com/nh-prototype/El+General+Oficial+500x168.png" fluid alt="Responsive image" />
+                            <b-link href="/">
+                                <b-img src="https://s3.amazonaws.com/nh-prototype/El+General+Oficial+500x168.png" fluid alt="Responsive image" />
+                            </b-link>
                         </div>   
                     </b-col>
                     <b-col md="5" class="today-settings">

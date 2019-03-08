@@ -8,9 +8,11 @@ export default {
     data() {
         return {
             article: {
-                img: 'https://picsum.photos/250/250/?image=54',
+                id: 'Cs01Ew9s00',
+                img_url: 'https://picsum.photos/250/250/?image=54',
+                img: 54,
                 title: 'Times are changing...', 
-                description: "Awesome new that you must read, I promise you you won't believe what happen..."
+                content: "Awesome new that you must read, I promise you you won't believe what happen..."
             }
         }
         

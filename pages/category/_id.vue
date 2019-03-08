@@ -78,6 +78,7 @@
         </b-col>
       </b-row>
     </b-container>
+    <FooterPage />
   </div>
 </template>
 
@@ -94,6 +95,7 @@ import SideNews from "~/components/SideNews.vue";
 import FullContainer from "~/components/FullContainer.vue";
 import AfterFullContainer from "~/components/AfterFullContainer.vue";
 import SideNews2 from "~/components/SideNews2.vue";
+import FooterPage from "~/components/FooterPage.vue";
 export default {
   components: {
     Logo,
@@ -107,7 +109,8 @@ export default {
     SideNews2,
     ArticleWithoutImg,
     SideArticle,
-    ComplexArticle
+    ComplexArticle,
+    FooterPage
   },
   data() {
     return {};

@@ -6,8 +6,7 @@
     <br>
     <b-container>
       <b-row>
-        <ArticleViewCard/>
-
+        <ArticleViewCard :content="$route.params"/>
         <b-col md="9">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed purus ullamcorper, rutrum lacus vitae, sollicitudin augue. Proin rhoncus facilisis eros vel vestibulum. Nulla facilisi. Donec eu ex sed nulla congue imperdiet. Nulla facilisi. Quisque eleifend aliquet metus, tempor sodales neque condimentum sit amet. Aenean eu viverra lorem, sit amet eleifend erat. In suscipit hendrerit libero vitae auctor. Curabitur nibh nisl, egestas a nisl at, luctus eleifend sem</p>
           <br>
@@ -41,7 +40,7 @@
         </b-row>
       </b-row>
     </b-container>
-    <FooterPage/>
+    <FooterPage />
   </div>
 </template>
 <style>
@@ -136,7 +135,6 @@ export default {
     return {};
   },
   validate({ params }) {
-    // Must be a number
     return params.id;
   }
 };
